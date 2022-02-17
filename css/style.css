@@ -1,0 +1,110 @@
+/*configuração Geral*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+:root {
+    --laranja: #D2872C;
+    --cinza: #766F68;
+    
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.container {
+ background-color: white;
+}
+
+/*configuração barra de navegação */
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    margin: 0 auto;
+
+    width: 90%;
+    height: 150px;
+}
+
+.navegacaoLogo a {
+    color: var(--laranja);
+
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.navegacaoMenu {
+   display: flex;
+}
+
+.navegacaoMenuContainer {
+    display: flex;
+    gap: 40px;
+}
+
+.navegacaoMenuContainerItem a {
+    color: black;
+    font-size: 25px;
+}
+
+/*configuração Container Principal*/
+.containerPrincipal {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    gap: 20px;
+ 
+}
+
+.containerPrincipalConteudo {
+    width: -50%;
+
+
+}
+
+.containerPrincipalConteudoTitulo {
+    color: var(--cinza);
+
+    font-size: 70px;
+    font-weight: 700;
+
+    margin:  0 100px ; 
+
+}
+
+.containerPrincipalConteudoParagrafo p {
+    color: var(--cinza);
+
+    font-size: 35px;
+
+    margin: 20px 100px 0; 
+
+}
+
+.containerPrincipalConteudobotao button {
+    background: var(--laranja);
+    color: white;
+
+    width: 250px;
+    height: 70px;
+
+    border: none;
+    border-radius: 10px ;
+
+    font-size: 25px;
+    font-weight: 700;
+
+    margin: 50px 100px 0; 
+}
+
+.containerSecundarioConteudo {
+    width: 50%;
+
+}
+
+.containerSecundarioConteudo img {
+    width: 90%;
+   
+}
